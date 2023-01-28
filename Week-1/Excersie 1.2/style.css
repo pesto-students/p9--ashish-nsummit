@@ -1,0 +1,113 @@
+* {
+	font-family: "Lato";
+}
+
+.flex {
+	display: flex;
+}
+
+.playlist {
+	width: 100vw;
+	height: 100vh;
+	border: 3px solid black;
+}
+
+.bar {
+	width: 40px;
+	background-color: #f0f0f0;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 150px;
+}
+.album {
+	padding: 30px;
+	align-items: flex-start;
+	height: 35%;
+	gap: 50px;
+	color: whitesmoke;
+	background-color: #454545;
+}
+
+.album-titles {
+	margin-top: 0px;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+.album-details {
+	flex-direction: column;
+	gap: 135px;
+}
+.album-desc {
+	font-size: 12px;
+	margin: 4px;
+}
+
+.album-controls {
+	font-size: 15px;
+	font-weight: 0.5px;
+	gap: 20px;
+}
+
+.listings {
+	width: 100%;
+	flex-direction: column;
+}
+
+.play-img {
+	width: 70px;
+	height: 70px;
+}
+
+.playing-song-desc {
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 16px 16px;
+	margin: 0px 16px 16px 16px;
+}
+
+.playing-song-desc > p {
+	margin: 0px;
+}
+.playing-now {
+	padding: 20px 20px 20px 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #43689c;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+}
+.song-playing {
+	align-items: center;
+	width: 100%;
+}
+.playing-controls {
+	justify-content: space-around;
+	width: 100%;
+}
+button {
+	background-color: transparent;
+	color: blue;
+	border: 1px solid black;
+}
+
+table {
+	margin: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	width: 25%;
+	padding: 8px 5px;
+}
+
+tr:nth-child(even) {
+	background: #f0f0f0;
+}
