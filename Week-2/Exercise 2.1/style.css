@@ -1,0 +1,47 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	/* background-color: aquamarine; */
+	align-items: center;
+}
+
+.main-title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.content {
+	display: flex;
+	align-content: flex-start;
+	flex-flow: wrap;
+	gap: 30px;
+}
+.form-fields {
+	gap: 40px;
+}
+section {
+	width: 330px;
+}
+p {
+	margin-top: 0px;
+}
+img {
+	width: 300px;
+	height: 300px;
+}
+
+/* .related-articles {
+  display: flex;
+  align-content: flex-start;
+  flex-direction:  ;
+} */
+
+.form-section {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	/* align-content: flex-start; */
+	width: 330px;
+}
